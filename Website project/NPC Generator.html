@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="Website style.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<div class="Logo>"><a href="Homepage.html"><img src="Media/not_for_talon.png" 
+    alt="Logo"> </a> </div>
+    <div class="Grid-Container"></div>
+    <div class="Grid-Button"><a href="Homepage.html"><button type="button">Homepage</button></a></div>
+    <div class="Grid-Button"><a href="Gallery.html"><button type="button">DND Gallery</button></a></div>
+    <div class="Grid-Button"><a href="Author.html"><button type="button">About the Author</button></a></div>
+    <div class="Grid-Button"><a href="ContactInfo.html"><button type="button">contact</button></a></div>
+    </div>
+    <body>
+    <h2>random NPC generator</h2>
+    <div>
+<button type="button" onclick="getWord()">generate NPC</button>
+    </div>
+
+    <div><p id="output"></p></div>
+
+
+    <script>
+
+      //var btn = document.querySelector("button");
+      //var out = document.getElementById("output");
+
+    
+      //btn.addEventListener("click", getWord);
+    
+    function getWord(){
+    
+    var ary = ["hello", "goodbye"];
+document.getElementById("output").innerHTML= ary[1];
+        //var wordNum = Math.floor(Math.random() * theWord.length);
+        //output.textContent = theWord[wordNum];
+    }
+    </script>
+</body>
+</html>
